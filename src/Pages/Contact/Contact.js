@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="row">
           <TelephonePlus fontSize="30px" color={color} />
           <p className="style-para ">Call us on</p>
-          <span className="style-span opacity-8">+936825713</span>
+          <span className="style-span opacity-8">+963936825713</span>
         </div>
         <div className="row">
           <EnvelopeCheck fontSize="30px" color={color} />

@@ -39,7 +39,17 @@
   cursor: pointer;
 }
 .section-themeColors .icons .setting {
-  animation: circ-anim 3s linear infinite;
+  -webkit-animation: circ-anim 3s linear infinite;
+          animation: circ-anim 3s linear infinite;
+}
+
+@-webkit-keyframes circ-anim {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes circ-anim {
@@ -49,6 +59,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-/*# sourceMappingURL=ThemeColors.css.map */
+}/*# sourceMappingURL=ThemeColors.css.map */

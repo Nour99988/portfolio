@@ -1,60 +1,56 @@
-
 @import "../../Sass";
-.section-home{
-
-  @media (max-width: 575px){
-   padding-top: 40px;
+.section-home {
+  @media (max-width: 575px) {
+    padding-top: 40px;
   }
-  .content-home{
+  .content-home {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 135px 70px 85px;
     gap: 40px;
 
-
     @media (max-width: 575px) {
-
       align-items: center;
       padding: 50px 20px;
       flex-direction: column-reverse;
     }
-    .content-image{
-     width: 35%;
+    .content-image {
+      width: 35%;
       position: relative;
-      @media (max-width: 575px){
+      @media (max-width: 575px) {
         width: 50%;
       }
-      img{
+      img {
         width: 100%;
       }
-
-
     }
-    .content-info{
-
+    .content-info {
       width: 65%;
-      @media (max-width: 575px){
+      @media (max-width: 575px) {
         width: 100%;
       }
-      .style-button{
+      .style-button {
         color: white;
         width: 200px;
-        padding:  15px;
+        padding: 15px;
         border-radius: 40px;
         outline: none;
         border: none;
         cursor: pointer;
         margin-top: 100px;
-
-
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          color: #fff;
+        }
       }
-      .typeWrite{
+      .typeWrite {
         width: 0;
-white-space: nowrap;
+        white-space: nowrap;
         overflow: hidden;
         display: block;
-       //animation: typeWriteEffect 2s steps(12) 1s both  infinite;
+        //animation: typeWriteEffect 2s steps(12) 1s both  infinite;
       }
     }
   }

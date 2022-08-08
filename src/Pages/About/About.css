@@ -61,14 +61,19 @@
     gap: 0;
   }
 }
-.section-about .skills-info .info .cv button {
+.section-about .skills-info .info .cv a {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
   color: white;
-  padding: 10px;
-  width: 160px;
+  padding: 8px;
+  width: 140px;
   border-radius: 20px;
   outline: none;
   border: none;
   margin-right: 10px;
+  text-decoration: none;
   cursor: pointer;
 }
 .section-about .skills-info .skills {
@@ -106,32 +111,45 @@
     flex-direction: column;
   }
 }
-.section-about .educations-experiences .educations, .section-about .educations-experiences .experiences {
+.section-about .educations-experiences .educations,
+.section-about .educations-experiences .experiences {
   width: 50%;
 }
 @media (max-width: 575px) {
-  .section-about .educations-experiences .educations, .section-about .educations-experiences .experiences {
+  .section-about .educations-experiences .educations,
+.section-about .educations-experiences .experiences {
     width: 100%;
   }
 }
-.section-about .educations-experiences .educations .content-education, .section-about .educations-experiences .educations .content-experience, .section-about .educations-experiences .experiences .content-education, .section-about .educations-experiences .experiences .content-experience {
+.section-about .educations-experiences .educations .content-education,
+.section-about .educations-experiences .educations .content-experience,
+.section-about .educations-experiences .experiences .content-education,
+.section-about .educations-experiences .experiences .content-experience {
   background-color: #222121;
   border-radius: 28px;
   border: 3px solid rgba(255, 255, 255, 0.168627451);
   position: relative;
   padding: 20px;
 }
-.section-about .educations-experiences .educations .content-education .education, .section-about .educations-experiences .educations .content-education .experience, .section-about .educations-experiences .educations .content-experience .education, .section-about .educations-experiences .educations .content-experience .experience, .section-about .educations-experiences .experiences .content-education .education, .section-about .educations-experiences .experiences .content-education .experience, .section-about .educations-experiences .experiences .content-experience .education, .section-about .educations-experiences .experiences .content-experience .experience {
+.section-about .educations-experiences .educations .content-education .education,
+.section-about .educations-experiences .educations .content-education .experience,
+.section-about .educations-experiences .educations .content-experience .education,
+.section-about .educations-experiences .educations .content-experience .experience,
+.section-about .educations-experiences .experiences .content-education .education,
+.section-about .educations-experiences .experiences .content-education .experience,
+.section-about .educations-experiences .experiences .content-experience .education,
+.section-about .educations-experiences .experiences .content-experience .experience {
   margin-left: 26px;
 }
-.section-about .educations-experiences .educations .date, .section-about .educations-experiences .experiences .date {
+.section-about .educations-experiences .educations .date,
+.section-about .educations-experiences .experiences .date {
   position: relative;
 }
-.section-about .educations-experiences .educations .date svg, .section-about .educations-experiences .experiences .date svg {
+.section-about .educations-experiences .educations .date svg,
+.section-about .educations-experiences .experiences .date svg {
   padding-right: 15px;
 }
-.section-about .educations-experiences .educations .style-para, .section-about .educations-experiences .experiences .style-para {
+.section-about .educations-experiences .educations .style-para,
+.section-about .educations-experiences .experiences .style-para {
   max-width: 450px;
-}
-
-/*# sourceMappingURL=About.css.map */
+}/*# sourceMappingURL=About.css.map */

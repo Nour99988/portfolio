@@ -47,11 +47,14 @@
   cursor: pointer;
   margin-top: 100px;
 }
+.section-home .content-home .content-info .style-button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+}
 .section-home .content-home .content-info .typeWrite {
   width: 0;
   white-space: nowrap;
   overflow: hidden;
   display: block;
-}
-
-/*# sourceMappingURL=Home.css.map */
+}/*# sourceMappingURL=Home.css.map */

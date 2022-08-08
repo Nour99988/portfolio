@@ -2,4 +2,23 @@
   text-decoration: none;
 }
 
-/*# sourceMappingURL=GlobalClass.css.map */
+.style-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.style-under-title {
+  font-size: 25px;
+}
+
+.style-para {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.opacity-8 {
+  opacity: 0.8;
+}/*# sourceMappingURL=GlobalClass.css.map */

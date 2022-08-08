@@ -1,19 +1,12 @@
 @import "../../Sass";
 
 .section-about {
-
   padding: 50px 30px;
 
-
   .about-me {
-
-
-
     .style-under-title {
       padding-top: 50px;
     }
-
-
   }
 
   .skills-info {
@@ -41,7 +34,6 @@
         width: 41%;
         @media (max-width: 768px) {
           width: 100%;
-
         }
       }
 
@@ -49,12 +41,10 @@
         width: 50%;
         @media (max-width: 768px) {
           width: 100%;
-
         }
       }
 
       .row {
-
         p {
           border-bottom: 1px solid rgba(255, 255, 255, 0.5411764706);
           padding: 8px 0;
@@ -69,18 +59,32 @@
         gap: 20px;
         @media (max-width: 768px) {
           gap: 0;
-
         }
 
-        button {
-          color: white;
+        // a {
+        //   color: white;
 
-          padding: 10px;
-          width: 160px;
+        //   padding: 10px;
+        //   width: 160px;
+        //   border-radius: 20px;
+        //   outline: none;
+        //   border: none;
+        //   margin-right: 10px;
+        //   cursor: pointer;
+        // }
+        a {
+          display: block;
+          font-size: 14px;
+          font-weight: 500;
+          text-align: center;
+          color: white;
+          padding: 8px;
+          width: 140px;
           border-radius: 20px;
           outline: none;
           border: none;
           margin-right: 10px;
+          text-decoration: none;
           cursor: pointer;
         }
       }
@@ -107,12 +111,9 @@
           height: 6px;
           position: relative;
           border-radius: 10px;
-
         }
       }
-
     }
-
   }
 
   .educations-experiences {
@@ -120,26 +121,28 @@
     flex-direction: row;
     gap: 20px;
     padding-top: 30px;
-    color: white!important;
+    color: white !important;
     @media (max-width: 575px) {
       flex-direction: column;
     }
 
-    .educations, .experiences {
+    .educations,
+    .experiences {
       width: 50%;
       @media (max-width: 575px) {
         width: 100%;
       }
 
-
-      .content-education, .content-experience {
+      .content-education,
+      .content-experience {
         background-color: $background-sideBar;
         border-radius: 28px;
         border: 3px solid #ffffff2b;
         position: relative;
         padding: 20px;
 
-        .education, .experience {
+        .education,
+        .experience {
           margin-left: 26px;
         }
       }
@@ -150,15 +153,11 @@
         svg {
           padding-right: 15px;
         }
-
       }
 
       .style-para {
-
         max-width: 450px;
-
       }
     }
   }
 }
-

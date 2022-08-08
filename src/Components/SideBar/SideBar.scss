@@ -1,20 +1,21 @@
 @import "../../Sass";
 
-.section-SideBar{
-  background:$background-sideBar ;
+.section-SideBar {
+  background: $background-sideBar;
   padding: 20px 40px 100px;
   z-index: 1;
+  height: 100vh;
   @media (max-width: 575px) {
     padding: 10px;
   }
-  .border-name p{
+  .border-name p {
     font-size: 25px;
     position: relative;
     text-align: center;
     color: $color-white;
     font-weight: $font-bold;
     //font-family: 'Caveat', cursive;
-    &:before{
+    &:before {
       content: "";
       width: 20px;
       height: 20px;
@@ -23,9 +24,8 @@
       border-top: 3px solid $color-orange;
       right: 20%;
       top: 0;
-
     }
-    &:after{
+    &:after {
       content: "";
       width: 20px;
       height: 20px;
@@ -36,19 +36,19 @@
       bottom: -15px;
     }
   }
-  .name-section{
+  .name-section {
     text-align: center;
     padding: 0 32px;
     @media (max-width: 575px) {
       padding: 0;
     }
-    ul{
+    ul {
       list-style: none;
       padding: 100px 0 20px 0;
-      li{
+      li {
         padding: 30px 20px 6px 20px;
         border-bottom: 1px solid #ffffff8a;
-        a{
+        a {
           font-size: 15px;
           display: flex;
           gap: 20px;
@@ -56,10 +56,8 @@
           align-items: center;
           color: $color-white;
           font-weight: $font-bold;
-
         }
       }
     }
   }
-
 }

@@ -31,7 +31,7 @@ const About = () => {
       <div className="about-me">
         <Title title="About me" />
         <p className="style-under-title">
-          I am Mohammed Khattab and front<span> end developer</span>
+          I am Mohammed Khattab and I am front<span> end developer</span>
         </p>
         <p className="style-para ">
           I am a self-driven front-end developer and have been in the industry for more than 2 years. I have a keen eye
@@ -53,7 +53,7 @@ const About = () => {
             </p>
             <p>
               <span className="bold">Degree :</span>
-              <span> Cs</span>
+              <span> Bachelor of Information Technology</span>
             </p>
             <p>
               <span className="bold">city :</span>
@@ -79,8 +79,10 @@ const About = () => {
             </p>
           </div>
           <div className="cv">
-            <button style={style.backgroundColor}>Download Cv</button>
-            <button style={style.backgroundColor}>Hire me</button>
+            <a style={style.backgroundColor} href="./Img/MohammedNour_khattab +CV .rtf.pdf" download>
+              Download Cv
+            </a>
+            <a style={style.backgroundColor}>Hire me</a>
           </div>
         </div>
         <div className="skills">
@@ -185,49 +187,19 @@ const About = () => {
               <p className="date">
                 <span style={style.styleCircle}></span>
                 <CalendarCheckFill />
-                2013-2015
+                2020-currently
               </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
+              <h2 className="style-under-title">Bachelor's of Information Technology at syrian virtual university</h2>
+              <p className="style-para opacity-8">I will graduate in six months</p>
             </div>
             <div className="education">
               <p className="date">
                 <span style={style.styleCircle}></span>
                 <CalendarCheckFill />
-                2013-2015
+                2012-2014
               </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
-            </div>
-            <div className="education">
-              <p className="date">
-                <span style={style.styleCircle}></span>
-                <CalendarCheckFill />
-                2013-2015
-              </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
-            </div>
-            <div className="education">
-              <p className="date">
-                <span style={style.styleCircle}></span>
-                <CalendarCheckFill />
-                2013-2015
-              </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
+              <h2 className="style-under-title"> Intermediate Institute of Computer Technology</h2>
+              <p className="style-para opacity-8"></p>
             </div>
           </div>
         </div>
@@ -239,48 +211,16 @@ const About = () => {
               <p className="date">
                 <span style={style.styleCircle}></span>
                 <CalendarCheckFill />
-                2013-2015
+                04.2022-currently
               </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
+              <h2 className="style-under-title">Frontend Developer at focal x agency</h2>
               <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
-            </div>
-            <div className="experience">
-              <p className="date">
-                <span style={style.styleCircle}></span>
-                <CalendarCheckFill />
-                2013-2015
-              </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
-            </div>
-            <div className="experience">
-              <p className="date">
-                <span style={style.styleCircle}></span>
-                <CalendarCheckFill />
-                2013-2015
-              </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
-              </p>
-            </div>
-            <div className="experience">
-              <p className="date">
-                <span style={style.styleCircle}></span>
-                <CalendarCheckFill />
-                2013-2015
-              </p>
-              <h2 className="style-under-title">Master in Computer science</h2>
-              <p className="style-para opacity-8">
-                I am a web designer extensive experience for over 10 yeasrs, my experties is to cerate and website
-                designer,graphic design and many more
+                Working with a new scrum team on the main web site’s Focalx pure css and vanilla javascript and builded
+                dashboard by React js and Redux to manage all employees and trainees <br />
+                Developing completely isolated, reusable, unit tested and if neededvisually tested components.
+                <br />
+                Followed a framework scrum workflow: daily standups, weekly sprint review, sprint planning and sprint
+                retrospective meetings.
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ const namePages = [
   { name: "Home", icon: <Briefcase /> },
   { name: "About", icon: <ChatDotsFill /> },
   { name: "Skills", icon: <HouseFill /> },
-  { name: "PortFolio", icon: <ListTask /> },
+  { name: "Portfolio", icon: <ListTask /> },
   { name: "Contact", icon: <PersonFill /> },
 ];
 

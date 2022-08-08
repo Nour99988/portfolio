@@ -88,7 +88,7 @@ const Home = () => {
         <div className="content-image">
           <span style={style.borer_left_img}></span>
           <span style={style.borer_right_img} className="after-style"></span>
-          <img src="./Img/Nour.jpg" />
+          <img src="./img/Nour.jpg" />
         </div>
       </div>
     </motion.div>

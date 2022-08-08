@@ -20,7 +20,7 @@ const Portfolio = () => {
       {/*<p>My last project</p>*/}
       <div className="content-portfolio">
         <div className="row">
-          <img src="./Img/project-1.png" />
+          <img src="./img/project-1.png" />
           <div className="icons">
             <a href="https://github.com/nour99988/ecomm2">
               <Github fontSize="50px" color="black" />
@@ -31,7 +31,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="row">
-          <img src="./Img/project-2.png" />
+          <img src="./img/project-2.png" />
           <div className="icons">
             {/* <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a> */}
             <a href="https://www.focal-x.com/">

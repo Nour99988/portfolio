@@ -17,15 +17,14 @@ const Portfolio = () => {
       className="section-portfolio"
     >
       <Title title="Portfolio" />
-      {/*<p>My last project</p>*/}
       <div className="content-portfolio">
         <div className="row">
           <img src="./img/project-1.png" />
           <div className="icons">
-            <a href="https://github.com/nour99988/ecomm2">
+            <a href="https://github.com/nour99988/ecomm2" target="__blank">
               <Github fontSize="50px" color="black" />
             </a>
-            <a href="https://nour99988.github.io/ecomm2/">
+            <a href="https://nour99988.github.io/ecomm2/" target="__blank">
               <Globe fontSize="50px" color="black" />
             </a>
           </div>
@@ -33,8 +32,7 @@ const Portfolio = () => {
         <div className="row">
           <img src="./img/project-2.png" />
           <div className="icons">
-            {/* <a  href='https://github.com/owies-hassan/owies-newsletter'>  <Github fontSize='50px' color='white'/></a> */}
-            <a href="https://www.focal-x.com/">
+            <a href="https://www.focal-x.com/" target="__blank">
               <Globe fontSize="50px" color="black" />
             </a>
           </div>

@@ -41,7 +41,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
-            <Route path="/Portf" element={<Portfolio />} />
+            <Route path="/Portfolio" element={<Portfolio />} />
             <Route path="/Skills" element={<Services />} />
           </Routes>
         </AnimatePresence>

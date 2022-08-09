@@ -1,5 +1,5 @@
 import "./Home.css";
-
+// import Img from "img/Nour.jpg";
 import useStyle from "../../Hooks/useStyle";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
@@ -88,7 +88,7 @@ const Home = () => {
         <div className="content-image">
           <span style={style.borer_left_img}></span>
           <span style={style.borer_right_img} className="after-style"></span>
-          <img src="./img/Nour.jpg" />
+          <img src="./img/Nour.jpg" alt="ss" />
         </div>
       </div>
     </motion.div>

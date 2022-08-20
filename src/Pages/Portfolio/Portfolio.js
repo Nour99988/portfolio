@@ -12,7 +12,7 @@ const Portfolio = () => {
       variants={variantTransition}
       initial="hidden"
       animate="visible"
-      exit={ x: "100vw", transition: { duration: 0.2, when: "afterChildren" } }
+      exit="exit"
       style={style.styleMode}
       className="section-portfolio"
     >
@@ -29,7 +29,6 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        
       </div>
     </motion.div>
   );

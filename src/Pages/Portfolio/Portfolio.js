@@ -12,7 +12,7 @@ const Portfolio = () => {
       variants={variantTransition}
       initial="hidden"
       animate="visible"
-      exit="exit"
+      exit={ x: "100vw", transition: { duration: 0.2, when: "afterChildren" } }
       style={style.styleMode}
       className="section-portfolio"
     >
@@ -29,14 +29,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className="row">
-          <img src="./img/project-2.png" />
-          <div className="icons">
-            <a href="https://www.focal-x.com/" target="__blank">
-              <Globe fontSize="50px" color="black" />
-            </a>
-          </div>
-        </div>
+        
       </div>
     </motion.div>
   );
